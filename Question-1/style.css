@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 80%;
+  height: 200px;
+  border: 2px solid #a4d2b3;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  font-family: Arial, sans-serif;
+}
+.wrapper {
+  border-left: 3px solid #000;
+  height: 250px;
+  align-items: center;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+/* Text styling */
+.text-container {
+  flex-grow: 1;
+}
+
+.text-container h1 {
+  font-size: 24px;
+  color: #000;
+  margin: 0;
+  font-weight: 400;
+}
+
+.text-container span {
+  color: #5553b7;
+  font-weight: bold;
+}
+
+/* Button container */
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+/* Button styling */
+.button {
+  padding: 8px 20px;
+  font-size: 14px;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.button-green {
+  background-color: #2dd35c;
+  color: white;
+}
+
+.button-outline {
+  background-color: white;
+  color: #5553b7;
+  border: 2px solid #5553b7;
+}
+
+/* Background shape */
+.background-shape {
+  width: 50%;
+  height: 140px;
+  background-color: #d2d2f0;
+  border-top-left-radius: 150px;
+  border-bottom-left-radius: 10px;
+  position: absolute;
+  top: 70px;
+  right: 0;
+  z-index: -1;
+  filter: blur(2px);
+}

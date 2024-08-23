@@ -1,0 +1,26 @@
+Deployed Link - https://swiggyy-food-app.vercel.app/
+Github Link - https://github.com/anupamyadav01/Swiggyy___food__app
+
+Project Explanation -
+
+ The worked on lot of best project and this is one of them. Swiggyy___food__app is a food delivery application that allows users to conveniently order food from nearby restaurants and have it delivered to their doorstep. The main purpose of this app is to make it easy for users to order food, whether they're busy, not feeling well, or just prefer the convenience of delivery.
+
+ I have used React as javascript library, Tailwind CSS for styling purpose, Firebase for authentication, Redux Toolkit for state management, React-router dom for routing purpose. The project is hosted on Vercel.
+
+The app features:
+
+Top Restaurant Listings: Users can view the top restaurants available in their area.
+
+Search Functionality: Users can search for food or restaurants based on any location. They can search by food name or restaurant name, making it easy to find exactly what they want.
+
+Filtering Options: The app offers filters based on fast delivery, price, rating, and special offers, so users can quickly find the best options for them.
+
+Order Variety: Users can browse and order from a wide variety of food items offered by different restaurants.
+
+User Authentication: The app uses Google Firebase for secure user authentication, ensuring a safe and personalized experience.
+
+Add to Cart and Checkout: Users can easily add items to their cart and proceed to checkout when they're ready to place an order.
+
+Responsive UI: The app's interface is designed to be responsive, providing a smooth experience across different devices.
+
+This project showcases a complete flow from searching for food to ordering and checkout, with a focus on user experience and functionality.
